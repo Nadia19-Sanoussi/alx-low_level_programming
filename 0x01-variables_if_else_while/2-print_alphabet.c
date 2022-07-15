@@ -1,24 +1,21 @@
 #include <stdio.h>
 /**
- *  * main - a simple program that outputs 0-9 separated by commas
- *    * Return: 0 on success
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
-int main(void)
-{
-int i;
-int j;
 
-	for (i = 48; i < 57; i++)
-	{
-		for (j = i + 1; j < 58; j++)
-			putchar(i);
-		putchar(j);
-		if (i != 56 || j != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-}
-putchar('\n');
+int main(void)
+
+{
+
+
+
+		char c;
+
+		for (c = 'a'; c <= 'z'; c++)
+
+		putchar(c);
+
+		putchar('\n');
 return (0);
+}
